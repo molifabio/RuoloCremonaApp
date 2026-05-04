@@ -55,4 +55,3 @@ Questa verifica non sostituisce un vero motore di routing stradale, ma e utile p
 
 
 
-Salve, quest'anno purtroppo abbiamo avuto problemi nella compilazione dell'isee, e siamo in ritardo. Qual'ora sottoscrivessi l'isee in questi giorni si può aggiornare l'importo della seconda rata?

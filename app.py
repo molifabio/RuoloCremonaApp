@@ -397,7 +397,7 @@ def run_mode1(
         if feedback["ok"]:
             st.success(f"Corretto: {feedback['target']}")
         else:
-            st.error(f"Sbagliato. Il punto corretto era: {feedback['target']}")
+            st.error(f"Sbagliato. Hai selezionato: {feedback["picked"]}")
 
     col_map, col_info = st.columns([2, 1], vertical_alignment="top")
 
@@ -569,6 +569,14 @@ def run_mode2(poi_list: list[dict], map_tiles: str, map_width: int, map_height: 
             st.rerun()
 
 
+def run_mode3(poi_list: list[dict], map_tiles: str, map_width: int, map_height: int) -> None:
+    st.subheader("Modalita 3: Apprendimento")
+    st.caption("Muovi il mouse sui punti per vederne il nome.")
+
+    fmap = make_base_map(poi_list, show_labels=True, tiles=map_tiles)
+    st_folium(fmap, width=map_width, height=map_height)
+
+
 def main() -> None:
     st.set_page_config(page_title="Quiz Mappa Cremona", layout="wide")
     st.title("Allenamento punti di interesse - Cremona")
@@ -585,7 +593,7 @@ def main() -> None:
         st.header("Impostazioni")
         mode = st.radio(
             "Modalita",
-            ["Quiz 10 POI", "Percorsi 5 round"],
+            ["Quiz 10 POI", "Percorsi 5 round", "Apprendimento"],
             index=0,
         )
         batch_choice = st.radio(
@@ -616,8 +624,10 @@ def main() -> None:
 
     if mode == "Quiz 10 POI":
         run_mode1(poi_list, snap_distance, map_tiles, map_width, map_height, batch_map, pool_signature)
-    else:
+    elif mode == "Percorsi 5 round":
         run_mode2(poi_list, map_tiles, map_width, map_height)
+    elif mode == "Apprendimento":
+        run_mode3(poi_list, map_tiles, map_width, map_height)
 
 
 if __name__ == "__main__":

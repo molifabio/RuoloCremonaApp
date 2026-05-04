@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Guardia di Finanza",
+    "lat": 45.1410345,
+    "lon": 10.0142633
+  },
+  {
+    "name": "Vigili del Fuoco",
+    "lat": 45.1511697,
+    "lon": 10.025171
+  },
+  {
+    "name": "INPS",
+    "lat": 45.132581,
+    "lon": 10.0168745
+  },
+  {
+    "name": "Camera di Commercio",
+    "lat": 45.1338694,
+    "lon": 10.0241535
+  },
+  {
+    "name": "Ospedale",
+    "lat": 45.129456,
+    "lon": 10.0548567
+  },
+  {
+    "name": "Archivio di Stato",
+    "lat": 45.139302,
+    "lon": 10.0225386
+  },
+  {
+    "name": "Informagiovani",
+    "lat": 45.1383432,
+    "lon": 10.0204908
+  },
+  {
+    "name": "Spazio Comune",
+    "lat": 45.14019,
+    "lon": 10.03277
+  },
+  {
+    "name": "Duomo",
+    "lat": 45.1331701,
+    "lon": 10.0244205
+  },
+  {
+    "name": "Chiesa di San Luca",
+    "lat": 45.1409896,
+    "lon": 10.0165579
+  },
+  {
+    "name": "Chiesa di San Sigismondo",
+    "lat": 45.1256508,
+    "lon": 10.0542536
+  },
+  {
+    "name": "Chiesa di Sant'Agata",
+    "lat": 45.138249,
+    "lon": 10.0179457
+  },
+  {
+    "name": "Chiesa di Sant'Agostino",
+    "lat": 45.1351509,
+    "lon": 10.0193959
+  },
+  {
+    "name": "Chiesa di Sant'Abbondio",
+    "lat": 45.1370821,
+    "lon": 10.0291756
+  },
+  {
+    "name": "Chiesa di San Sebastiano",
+    "lat": 45.1337939,
+    "lon": 10.0431409
+  },
+  {
+    "name": "Chiesa di Sant'Ambrogio",
+    "lat": 45.1441563,
+    "lon": 10.0125712
+  },
+  {
+    "name": "Chiesa di Santa Lucia",
+    "lat": 45.1330888,
+    "lon": 10.0176194
+  },
+  {
+    "name": "Cimitero",
+    "lat": 45.169213,
+    "lon": 10.0721992
+  },
+  {
+    "name": "Hotel Astoria",
+    "lat": 45.1345896,
+    "lon": 10.0241269
+  },
+  {
+    "name": "Hotel Continental",
+    "lat": 45.1370046,
+    "lon": 10.0320657
+  },
+  {
+    "name": "Hotel Impero",
+    "lat": 45.1330396,
+    "lon": 10.0233343
+  },
+  {
+    "name": "Hotel Cremona",
+    "lat": 45.1385045,
+    "lon": 10.0412711
+  },
+  {
+    "name": "Hotel Duomo",
+    "lat": 45.1331701,
+    "lon": 10.0244205
+  },
+  {
+    "name": "B&B Hotel Cremona",
+    "lat": 45.1385045,
+    "lon": 10.0412711
+  },
+  {
+    "name": "Albergo Visconti",
+    "lat": 45.1269071,
+    "lon": 10.0540559
+  },
+  {
+    "name": "Osteria La Sosta",
+    "lat": 45.1322789,
+    "lon": 10.0247934
+  },
+  {
+    "name": "Hosteria 700",
+    "lat": 45.1378345,
+    "lon": 10.0224046
+  },
+  {
+    "name": "Moya",
+    "lat": 45.1422772,
+    "lon": 10.019691
+  },
+  {
+    "name": "Pizzeria Cremonese",
+    "lat": 45.1360375,
+    "lon": 10.0223983
+  },
+  {
+    "name": "Pizzeria Acquario",
+    "lat": 45.1323942,
+    "lon": 10.0232884
+  },
+  {
+    "name": "Trattoria Alba",
+    "lat": 45.143914,
+    "lon": 10.0393408
+  },
+  {
+    "name": "Ipercoop",
+    "lat": 45.1493717,
+    "lon": 9.9987521
+  },
+  {
+    "name": "Esselunga",
+    "lat": 45.135771,
+    "lon": 10.0358863
+  },
+  {
+    "name": "Super Rossetto",
+    "lat": 45.1519805,
+    "lon": 10.0139111
+  },
+  {
+    "name": "Eurospar supermercato",
+    "lat": 45.1288683,
+    "lon": 10.0296357
+  },
+  {
+    "name": "Concessionaria Citroen",
+    "lat": 45.1456344,
+    "lon": 10.0747065
+  },
+  {
+    "name": "Concessionaria Toyota",
+    "lat": 45.1522334,
+    "lon": 9.9978714
+  },
+  {
+    "name": "Concessionaria Volkswagen",
+    "lat": 45.1572883,
+    "lon": 9.9887353
+  },
+  {
+    "name": "Liceo scientifico Aselli",
+    "lat": 45.1398261,
+    "lon": 10.0201928
+  },
+  {
+    "name": "ITIS",
+    "lat": 45.1507912,
+    "lon": 10.0019957
+  },
+  {
+    "name": "Università Cattolica del Sacro Cuore",
+    "lat": 45.1437598,
+    "lon": 9.9896467
+  },
+  {
+    "name": "Scuola media Anna Frank",
+    "lat": 45.1304778,
+    "lon": 10.0376377
+  },
+  {
+    "name": "Museo del Violino",
+    "lat": 45.1312626,
+    "lon": 10.0230249
+  },
+  {
+    "name": "Museo Civico Ala Ponzone",
+    "lat": 45.1380124,
+    "lon": 10.0213714
+  },
+  {
+    "name": "Museo della Civiltà Contadina",
+    "lat": 45.1520153,
+    "lon": 9.9999894
+  },
+  {
+    "name": "Museo Archeologico San Lorenzo",
+    "lat": 45.1349972,
+    "lon": 10.0294349
+  },
+  {
+    "name": "Museo Diocesano",
+    "lat": 45.1328775,
+    "lon": 10.0254811
+  },
+  {
+    "name": "Museo Civico di Storia Naturale",
+    "lat": 45.1379159,
+    "lon": 10.0209191
+  },
+  {
+    "name": "Biblioteca Statale",
+    "lat": 45.1384176,
+    "lon": 10.0216782
+  },
+  {
+    "name": "Autostazione",
+    "lat": 45.1423234,
+    "lon": 10.0210784
+  },
+  {
+    "name": "Teatro Ponchielli",
+    "lat": 45.1321713,
+    "lon": 10.0190454
+  },
+  {
+    "name": "Canottieri Bissolati",
+    "lat": 45.1331322,
+    "lon": 9.9913711
+  },
+  {
+    "name": "Canottieri Flora",
+    "lat": 45.1339639,
+    "lon": 9.9883672
+  },
+  {
+    "name": "Centro Sportivo San Zeno",
+    "lat": 45.1483539,
+    "lon": 10.0199818
+  },
+  {
+    "name": "Centro Sportivo Stradivari",
+    "lat": 45.1465523,
+    "lon": 9.9876974
+  },
+  {
+    "name": "Stadio Zini",
+    "lat": 45.140044,
+    "lon": 10.0350005
+  },
+  {
+    "name": "Piscine Comunali",
+    "lat": 45.1277312,
+    "lon": 10.0027998
+  },
+  {
+    "name": "MAC Motonautica Associazione Cremona",
+    "lat": 45.126199,
+    "lon": 10.0005273
+  },
+  {
+    "name": "Palazzo Trecchi",
+    "lat": 45.1376136,
+    "lon": 10.0170934
+  },
+  {
+    "name": "Palazzo Cittanova",
+    "lat": 45.1380752,
+    "lon": 10.0170775
+  },
+  {
+    "name": "Palazzo del Comune",
+    "lat": 45.133361,
+    "lon": 10.0238728
+  },
+  {
+    "name": "Palazzo Duemiglia",
+    "lat": 45.1434656,
+    "lon": 10.0340783
+  },
+  {
+    "name": "Palazzo Fodri",
+    "lat": 45.1355318,
+    "lon": 10.0279078
+  },
+  {
+    "name": "Galleria XXV Aprile",
+    "lat": 45.1348027,
+    "lon": 10.0225125
+  },
+  {
+    "name": "Colonie Padane",
+    "lat": 45.122426,
+    "lon": 10.0068077
+  },
+  {
+    "name": "Parco del Vecchio Passeggio",
+    "lat": 45.1388306,
+    "lon": 10.0261551
+  },
+  {
+    "name": "Giardini Pubblici \"Papa Giovanni Paolo II\"",
+    "lat": 45.1355482,
+    "lon": 10.0228266
+  },
+  {
+    "name": "Fiera di Cremona",
+    "lat": 45.151861,
+    "lon": 10.032709
+  }
+]

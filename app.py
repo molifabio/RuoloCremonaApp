@@ -621,14 +621,14 @@ def main() -> None:
         map_style = st.radio(
             "Stile mappa",
             ["Bianca", "Colorata"],
-            index=0,
+            index=1,
             help="Bianca usa uno sfondo pulito; Colorata mostra la cartografia standard di OpenStreetMap.",
         )
-        snap_distance = st.slider("Aggancio click ai POI (metri)", 20, 250, 90, 10)
-        map_width = st.slider("Larghezza mappa", 900, 1400, 1180, 50)
-        map_height = st.slider("Altezza mappa", 500, 900, 720, 20)
 
     map_tiles = "cartodbpositron" if map_style == "Bianca" else "OpenStreetMap"
+    snap_distance = 90
+    map_width = 1180
+    map_height = 720
 
     selected_batches = [batch_choice] if batch_choice != "Tutte le batch" else ["centro", "nord est", "nord ovest", "sud est", "sud ovest"]
     selected_poi_names = [

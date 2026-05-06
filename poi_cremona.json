@@ -2,801 +2,961 @@
   {
     "name": "Guardia di Finanza",
     "lat": 45.1410345,
-    "lon": 10.0142633
+    "lon": 10.0142633,
+    "err": true
   },
   {
     "name": "Vigili del Fuoco",
     "lat": 45.1511697,
-    "lon": 10.025171
+    "lon": 10.025171,
+    "err": true
   },
   {
     "name": "INPS",
     "lat": 45.132581,
-    "lon": 10.0168745
+    "lon": 10.0168745,
+    "err": true
   },
   {
     "name": "Camera di Commercio",
     "lat": 45.1338694,
-    "lon": 10.0241535
+    "lon": 10.0241535,
+    "err": true
   },
   {
     "name": "Ospedale",
     "lat": 45.129456,
-    "lon": 10.0548567
+    "lon": 10.0548567,
+    "err": true
   },
   {
     "name": "Archivio di Stato",
     "lat": 45.139302,
-    "lon": 10.0225386
+    "lon": 10.0225386,
+    "err": true
   },
   {
     "name": "Informagiovani",
     "lat": 45.1383432,
-    "lon": 10.0204908
+    "lon": 10.0204908,
+    "err": true
   },
   {
     "name": "Spazio Comune",
     "lat": 45.13341491267271,
-    "lon": 10.023470023788159
+    "lon": 10.023470023788159,
+    "err": true
   },
   {
     "name": "Duomo",
-    "lat": 45.13378012367575, 
-    "lon": 10.025293399972288
+    "lat": 45.13378012367575,
+    "lon": 10.025293399972288,
+    "err": true
   },
   {
     "name": "Chiesa di San Luca",
     "lat": 45.1409896,
-    "lon": 10.0165579
+    "lon": 10.0165579,
+    "err": true
   },
   {
     "name": "Chiesa di San Sigismondo",
     "lat": 45.1256508,
-    "lon": 10.0542536
+    "lon": 10.0542536,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Agata",
     "lat": 45.138249,
-    "lon": 10.0179457
+    "lon": 10.0179457,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Agostino",
     "lat": 45.1351509,
-    "lon": 10.0193959
+    "lon": 10.0193959,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Abbondio",
     "lat": 45.1370821,
-    "lon": 10.0291756
+    "lon": 10.0291756,
+    "err": true
   },
   {
     "name": "Chiesa di San Sebastiano",
     "lat": 45.1337939,
-    "lon": 10.0431409
+    "lon": 10.0431409,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Ambrogio",
     "lat": 45.1441563,
-    "lon": 10.0125712
+    "lon": 10.0125712,
+    "err": true
   },
   {
     "name": "Chiesa di Santa Lucia",
     "lat": 45.1330888,
-    "lon": 10.0176194
+    "lon": 10.0176194,
+    "err": true
   },
   {
     "name": "Cimitero",
     "lat": 45.14582500794225,
-    "lon": 10.023829428805357
+    "lon": 10.023829428805357,
+    "err": true
   },
   {
     "name": "Hotel Astoria",
     "lat": 45.1345896,
-    "lon": 10.0241269
+    "lon": 10.0241269,
+    "err": true
   },
   {
     "name": "Hotel Continental",
     "lat": 45.1370046,
-    "lon": 10.0320657
+    "lon": 10.0320657,
+    "err": true
   },
   {
     "name": "Hotel Impero",
     "lat": 45.1330396,
-    "lon": 10.0233343
+    "lon": 10.0233343,
+    "err": true
   },
   {
     "name": "Hotel Cremona",
-    "lat": 45.130893692088655, 
-    "lon": 9.999743880666422
+    "lat": 45.130893692088655,
+    "lon": 9.999743880666422,
+    "err": false
   },
   {
     "name": "Hotel Duomo",
     "lat": 45.1331701,
-    "lon": 10.0244205
+    "lon": 10.0244205,
+    "err": true
   },
   {
     "name": "B&B Hotel Cremona",
     "lat": 45.1385045,
-    "lon": 10.0412711
+    "lon": 10.0412711,
+    "err": true
   },
   {
     "name": "Albergo Visconti",
     "lat": 45.1269071,
-    "lon": 10.0540559
+    "lon": 10.0540559,
+    "err": true
   },
   {
     "name": "Osteria La Sosta",
     "lat": 45.1322789,
-    "lon": 10.0247934
+    "lon": 10.0247934,
+    "err": true
   },
   {
     "name": "Hosteria 700",
     "lat": 45.1378345,
-    "lon": 10.0224046
+    "lon": 10.0224046,
+    "err": true
   },
   {
     "name": "Moya",
     "lat": 45.1422772,
-    "lon": 10.019691
+    "lon": 10.019691,
+    "err": true
   },
   {
     "name": "Pizzeria Cremonese",
     "lat": 45.1360375,
-    "lon": 10.0223983
+    "lon": 10.0223983,
+    "err": true
   },
   {
     "name": "Pizzeria Acquario",
     "lat": 45.1323942,
-    "lon": 10.0232884
+    "lon": 10.0232884,
+    "err": true
   },
   {
     "name": "Trattoria Alba",
     "lat": 45.143914,
-    "lon": 10.0393408
+    "lon": 10.0393408,
+    "err": true
   },
   {
     "name": "Ipercoop",
-    "lat": 45.131536401235884, 
-    "lon": 10.016315082957638
+    "lat": 45.131536401235884,
+    "lon": 10.016315082957638,
+    "err": true
   },
   {
     "name": "Esselunga",
     "lat": 45.135771,
-    "lon": 10.0358863
+    "lon": 10.0358863,
+    "err": true
   },
   {
     "name": "Super Rossetto",
     "lat": 45.1519805,
-    "lon": 10.0139111
+    "lon": 10.0139111,
+    "err": true
   },
   {
     "name": "Eurospar supermercato",
     "lat": 45.1288683,
-    "lon": 10.0296357
+    "lon": 10.0296357,
+    "err": true
   },
   {
     "name": "Concessionaria Citroen",
     "lat": 45.1456344,
-    "lon": 10.0747065
+    "lon": 10.0747065,
+    "err": true
   },
   {
     "name": "Concessionaria Toyota",
     "lat": 45.1522334,
-    "lon": 9.9978714
+    "lon": 9.9978714,
+    "err": true
   },
   {
     "name": "Concessionaria Volkswagen",
     "lat": 45.1572883,
-    "lon": 9.9887353
+    "lon": 9.9887353,
+    "err": true
   },
   {
     "name": "Liceo scientifico Aselli",
     "lat": 45.1398261,
-    "lon": 10.0201928
+    "lon": 10.0201928,
+    "err": true
   },
   {
     "name": "ITIS",
     "lat": 45.1507912,
-    "lon": 10.0019957
+    "lon": 10.0019957,
+    "err": true
   },
   {
     "name": "Università Cattolica del Sacro Cuore",
-    "lat": 45.13782094146202, 
-    "lon": 10.012104444444754
+    "lat": 45.13782094146202,
+    "lon": 10.012104444444754,
+    "err": true
   },
   {
     "name": "Scuola media Anna Frank",
     "lat": 45.1304778,
-    "lon": 10.0376377
+    "lon": 10.0376377,
+    "err": true
   },
   {
     "name": "Ristorante Chiave di Bacco",
-    "lat": 45.13147785220861, 
-    "lon": 10.023345377140949
+    "lat": 45.13147785220861,
+    "lon": 10.023345377140949,
+    "err": true
   },
   {
     "name": "Museo del Violino",
     "lat": 45.1312626,
-    "lon": 10.0230249
+    "lon": 10.0230249,
+    "err": true
   },
   {
     "name": "Museo Civico Ala Ponzone",
     "lat": 45.1380124,
-    "lon": 10.0213714
+    "lon": 10.0213714,
+    "err": true
   },
   {
     "name": "Museo della Civiltà Contadina",
     "lat": 45.1520153,
-    "lon": 9.9999894
+    "lon": 9.9999894,
+    "err": true
   },
   {
     "name": "Museo Archeologico San Lorenzo",
     "lat": 45.1349972,
-    "lon": 10.0294349
+    "lon": 10.0294349,
+    "err": true
   },
   {
     "name": "Museo Diocesano",
     "lat": 45.1328775,
-    "lon": 10.0254811
+    "lon": 10.0254811,
+    "err": false
   },
   {
     "name": "Museo Civico di Storia Naturale",
     "lat": 45.1379159,
-    "lon": 10.0209191
+    "lon": 10.0209191,
+    "err": true
   },
   {
     "name": "Biblioteca Statale",
     "lat": 45.1384176,
-    "lon": 10.0216782
+    "lon": 10.0216782,
+    "err": true
   },
   {
     "name": "Autostazione",
     "lat": 45.1423234,
-    "lon": 10.0210784
+    "lon": 10.0210784,
+    "err": true
   },
   {
     "name": "Teatro Ponchielli",
     "lat": 45.1321713,
-    "lon": 10.0190454
+    "lon": 10.0190454,
+    "err": true
   },
   {
     "name": "Canottieri Bissolati",
     "lat": 45.1331322,
-    "lon": 9.9913711
+    "lon": 9.9913711,
+    "err": true
   },
   {
     "name": "Canottieri Flora",
     "lat": 45.1339639,
-    "lon": 9.9883672
+    "lon": 9.9883672,
+    "err": true
   },
   {
     "name": "Centro Sportivo San Zeno",
     "lat": 45.1483539,
-    "lon": 10.0199818
+    "lon": 10.0199818,
+    "err": true
   },
   {
     "name": "Centro Sportivo Stradivari",
     "lat": 45.1465523,
-    "lon": 9.9876974
+    "lon": 9.9876974,
+    "err": true
   },
   {
     "name": "Stadio Zini",
     "lat": 45.140044,
-    "lon": 10.0350005
+    "lon": 10.0350005,
+    "err": true
   },
   {
     "name": "Piscine Comunali",
     "lat": 45.1277312,
-    "lon": 10.0027998
+    "lon": 10.0027998,
+    "err": true
   },
   {
     "name": "MAC Motonautica Associazione Cremona",
     "lat": 45.126199,
-    "lon": 10.0005273
+    "lon": 10.0005273,
+    "err": true
   },
   {
     "name": "Palazzo Trecchi",
     "lat": 45.1376136,
-    "lon": 10.0170934
+    "lon": 10.0170934,
+    "err": true
   },
   {
     "name": "Palazzo Cittanova",
     "lat": 45.1380752,
-    "lon": 10.0170775
+    "lon": 10.0170775,
+    "err": true
   },
   {
     "name": "Palazzo del Comune",
     "lat": 45.133361,
-    "lon": 10.0238728
+    "lon": 10.0238728,
+    "err": true
   },
   {
     "name": "Palazzo Duemiglia",
     "lat": 45.1434656,
-    "lon": 10.0340783
+    "lon": 10.0340783,
+    "err": true
   },
   {
     "name": "Palazzo Fodri",
     "lat": 45.1355318,
-    "lon": 10.0279078
+    "lon": 10.0279078,
+    "err": true
   },
   {
     "name": "Galleria XXV Aprile",
     "lat": 45.1348027,
-    "lon": 10.0225125
+    "lon": 10.0225125,
+    "err": true
   },
   {
     "name": "Colonie Padane",
     "lat": 45.122426,
-    "lon": 10.0068077
+    "lon": 10.0068077,
+    "err": true
   },
   {
     "name": "Parco del Vecchio Passeggio",
     "lat": 45.1388306,
-    "lon": 10.0261551
+    "lon": 10.0261551,
+    "err": true
   },
   {
     "name": "Giardini Pubblici \"Papa Giovanni Paolo II\"",
     "lat": 45.1355482,
-    "lon": 10.0228266
+    "lon": 10.0228266,
+    "err": true
   },
   {
     "name": "Fiera di Cremona",
     "lat": 45.151861,
-    "lon": 10.032709
+    "lon": 10.032709,
+    "err": true
   },
   {
     "name": "Provincia/Prefettura",
     "lat": 45.1329795,
-    "lon": 10.0211763
+    "lon": 10.0211763,
+    "err": true
   },
   {
     "name": "Comune sede principale",
     "lat": 45.1334959,
-    "lon": 10.0248323
+    "lon": 10.0248323,
+    "err": true
   },
   {
     "name": "Regione Lombardia sede territoriale",
-    "lat": 45.14034820503391, 
-    "lon": 10.025994596484939
+    "lat": 45.14034820503391,
+    "lon": 10.025994596484939,
+    "err": true
   },
   {
     "name": "Poste Ufficio Centrale",
-    "lat": 45.13398507811165, 
-    "lon": 10.02224791115946
+    "lat": 45.13398507811165,
+    "lon": 10.02224791115946,
+    "err": true
   },
   {
     "name": "Agenzia delle Entrate",
     "lat": 45.1330204,
-    "lon": 10.0205158
+    "lon": 10.0205158,
+    "err": true
   },
   {
     "name": "Agenzia del Territorio (Catasto)",
-    "lat": 45.13937841753496, 
-    "lon": 10.026747102083084
+    "lat": 45.13937841753496,
+    "lon": 10.026747102083084,
+    "err": true
   },
   {
     "name": "Motorizzazione Civile",
-    "lat": 45.155127004835954, 
-    "lon": 10.025415737344733
+    "lat": 45.155127004835954,
+    "lon": 10.025415737344733,
+    "err": true
   },
   {
     "name": "Tribunale",
-    "lat": 45.13318217898083, 
-    "lon": 10.018598784326478
+    "lat": 45.13318217898083,
+    "lon": 10.018598784326478,
+    "err": true
   },
   {
     "name": "Questura",
-    "lat": 45.1326430470396, 
-    "lon": 10.019075983799167
+    "lat": 45.1326430470396,
+    "lon": 10.019075983799167,
+    "err": true
   },
   {
     "name": "Carabinieri Comando Stazione",
-    "lat": 45.14113813001615, 
-    "lon": 10.02056200538956
+    "lat": 45.14113813001615,
+    "lon": 10.02056200538956,
+    "err": true
   },
   {
     "name": "Polizia Stradale",
-    "lat": 45.138179778964954, 
-    "lon": 10.009254847612427
+    "lat": 45.138179778964954,
+    "lon": 10.009254847612427,
+    "err": true
   },
   {
     "name": "Polizia Locale del Comune",
     "lat": 45.1376663,
-    "lon": 10.0327109
+    "lon": 10.0327109,
+    "err": true
   },
   {
     "name": "ATS Val Padana (ASL)",
     "lat": 45.134058,
-    "lon": 10.044822
+    "lon": 10.044822,
+    "err": true
   },
   {
     "name": "Geriatrico Soldi (Cremona Solidale)",
     "lat": 45.1502554,
-    "lon": 10.0414553
+    "lon": 10.0414553,
+    "err": true
   },
   {
     "name": "Clinica San Camillo",
     "lat": 45.1375655,
-    "lon": 10.0394928
+    "lon": 10.0394928,
+    "err": true
   },
   {
     "name": "Clinica Figlie di San Camillo",
-    "lat": 45.14591203281514, 
-    "lon": 10.012746971575396
+    "lat": 45.14591203281514,
+    "lon": 10.012746971575396,
+    "err": true
   },
   {
     "name": "Clinica Ancelle della Carità",
-    "lat": 45.136526293328686, 
-    "lon": 10.025299515064043
+    "lat": 45.136526293328686,
+    "lon": 10.025299515064043,
+    "err": false
   },
   {
     "name": "INAIL",
     "lat": 45.1488681,
-    "lon": 10.0350417
+    "lon": 10.0350417,
+    "err": true
   },
   {
     "name": "ARPA (Agenzia Regionale Protezione Ambiente)",
-    "lat": 45.13181602159721, 
-    "lon": 10.032399933552762
+    "lat": 45.13181602159721,
+    "lon": 10.032399933552762,
+    "err": true
   },
   {
     "name": "Carcere",
     "lat": 45.1305445,
-    "lon": 10.0632025
+    "lon": 10.0632025,
+    "err": true
   },
   {
     "name": "Caserma Col di Lana",
     "lat": 45.1470359,
-    "lon": 10.0382169
+    "lon": 10.0382169,
+    "err": true
   },
   {
     "name": "Ufficio anagrafe comunale",
-    "lat": 45.132515489869675, 
-    "lon": 10.020940642044913
+    "lat": 45.132515489869675,
+    "lon": 10.020940642044913,
+    "err": true
   },
   {
     "name": "Piazza San Michele",
     "lat": 45.1352387,
-    "lon": 10.0325501
+    "lon": 10.0325501,
+    "err": true
   },
   {
     "name": "Chiesa di San Michele Vetere",
     "lat": 45.13526248526879,
-    "lon": 10.032834674446514
+    "lon": 10.032834674446514,
+    "err": true
   },
   {
     "name": "Chiesa di Pietro al Po",
     "lat": 45.1312215,
-    "lon": 10.0190163
+    "lon": 10.0190163,
+    "err": true
   },
   {
     "name": "Chiesa di Cristo Re",
     "lat": 45.1329208,
-    "lon": 10.0074992
+    "lon": 10.0074992,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Imerio",
-    "lat": 45.13044276461469, 
-    "lon": 10.027133879721982
+    "lat": 45.13044276461469,
+    "lon": 10.027133879721982,
+    "err": true
   },
   {
     "name": "Chiesa di Sant'Omobono",
-    "lat": 45.134985399411896, 
-    "lon": 10.01751817569952
+    "lat": 45.134985399411896,
+    "lon": 10.01751817569952,
+    "err": true
   },
   {
     "name": "Dellearti Design Hotel",
     "lat": 45.1328876,
-    "lon": 10.027079
+    "lon": 10.027079,
+    "err": true
   },
   {
     "name": "Ristorante Centrale",
     "lat": 45.1348056,
-    "lon": 10.0251045
+    "lon": 10.0251045,
+    "err": true
   },
   {
     "name": "Osteria del Melograno",
-    "lat": 45.132583554509075, 
-    "lon": 10.023537999586377
+    "lat": 45.132583554509075,
+    "lon": 10.023537999586377,
+    "err": true
   },
   {
     "name": "Kandoo",
     "lat": 45.1320602,
-    "lon": 10.0160237
+    "lon": 10.0160237,
+    "err": true
   },
   {
     "name": "Pizzeria La Pendola",
-    "lat": 45.13651855298283, 
-    "lon": 10.03100894918967
+    "lat": 45.13651855298283,
+    "lon": 10.03100894918967,
+    "err": true
   },
   {
     "name": "Acciaieria Arvedi ISP (area nord)",
-    "lat": 45.15022659275093, 
-    "lon": 9.94372326796329
+    "lat": 45.15022659275093,
+    "lon": 9.94372326796329,
+    "err": true
   },
   {
     "name": "Paolo Corazzi Fibre",
     "lat": 45.1454782,
-    "lon": 9.990799
+    "lon": 9.990799,
+    "err": true
   },
   {
     "name": "Oleificio Zucchi",
     "lat": 45.147621101785404,
-    "lon":  9.953929186488917
+    "lon": 9.953929186488917,
+    "err": true
   },
   {
     "name": "Provincia sede porto",
     "lat": 45.1437954,
-    "lon": 9.9787575
+    "lon": 9.9787575,
+    "err": true
   },
   {
     "name": "Consorzio Agrario",
-    "lat": 45.147243433548844, 
-    "lon": 9.964412373141393
+    "lat": 45.147243433548844,
+    "lon": 9.964412373141393,
+    "err": true
   },
   {
     "name": "Banco BPM - Banca Popolare di Cremona",
-    "lat": 45.13383677548001, 
-    "lon": 10.034005363310012
+    "lat": 45.13383677548001,
+    "lon": 10.034005363310012,
+    "err": true
   },
   {
     "name": "Centro Commerciale Cremona Po",
-    "lat": 45.15053660339526, 
-    "lon": 9.996560993158692
+    "lat": 45.15053660339526,
+    "lon": 9.996560993158692,
+    "err": true
   },
   {
     "name": "Mediaword",
-    "lat": 45.14966810667535, 
-    "lon": 10.002894510532574
+    "lat": 45.14966810667535,
+    "lon": 10.002894510532574,
+    "err": true
   },
   {
     "name": "Concessionaria Renault - Nissan",
-    "lat": 45.14313057480592, 
-    "lon": 9.995154628184565
+    "lat": 45.14313057480592,
+    "lon": 9.995154628184565,
+    "err": true
   },
   {
     "name": "CRIT Crescita Relazione Innovazione Territorio",
     "lat": 45.141097,
-    "lon": 10.0396944
+    "lon": 10.0396944,
+    "err": true
   },
   {
     "name": "Istituto d'Istruzione Superiore Ghisleri/Stanga",
-    "lat": 45.13960031254406, 
-    "lon": 10.0204046679172
+    "lat": 45.13960031254406,
+    "lon": 10.0204046679172,
+    "err": true
   },
   {
     "name": "Liceo Sofonisba Anguissola",
     "lat": 45.138449,
-    "lon": 10.0201074
+    "lon": 10.0201074,
+    "err": true
   },
   {
     "name": "Liceo Vida",
-    "lat": 45.14294486970573, 
-    "lon": 10.001809231946378
+    "lat": 45.14294486970573,
+    "lon": 10.001809231946378,
+    "err": false
   },
   {
     "name": "Politecnico di Milano Polo territoriale di Cremona",
-    "lat": 45.134965574488334, 
-    "lon": 10.015468338111768
+    "lat": 45.134965574488334,
+    "lon": 10.015468338111768,
+    "err": true
   },
   {
     "name": "Scuola media Virgilio",
-    "lat": 45.13514429053037, 
-    "lon": 10.008324491752074
+    "lat": 45.13514429053037,
+    "lon": 10.008324491752074,
+    "err": true
   },
   {
     "name": "Stazione FS",
-    "lat": 45.14322230285467, 
-    "lon": 10.017869558022735
+    "lat": 45.14322230285467,
+    "lon": 10.017869558022735,
+    "err": true
   },
   {
     "name": "Parcheggio Autosilo Massarotti",
-    "lat": 45.133986519241844, 
-    "lon": 10.013793277635138
+    "lat": 45.133986519241844,
+    "lon": 10.013793277635138,
+    "err": true
   },
   {
     "name": "Parcheggio Villa Glori",
     "lat": 45.1372996,
-    "lon": 10.0180545
+    "lon": 10.0180545,
+    "err": true
   },
   {
     "name": "Parcheggio Saba Marconi",
-    "lat": 45.13188570749573, 
-    "lon": 10.022321487334626
+    "lat": 45.13188570749573,
+    "lon": 10.022321487334626,
+    "err": true
   },
   {
     "name": "Teatro Monteverdi",
-    "lat": 45.140314152456156, 
-    "lon": 10.024739045201025
+    "lat": 45.140314152456156,
+    "lon": 10.024739045201025,
+    "err": true
   },
   {
     "name": "Teatro/Cinema Filodrammatici",
     "lat": 45.1358493,
-    "lon": 10.0247827
+    "lon": 10.0247827,
+    "err": true
   },
   {
     "name": "Cinema Chaplin",
     "lat": 45.1390426,
-    "lon": 10.0399871
+    "lon": 10.0399871,
+    "err": true
   },
   {
     "name": "Anteo SpazioCinema",
     "lat": 45.1498921,
-    "lon": 9.9969002
+    "lon": 9.9969002,
+    "err": true
   },
   {
     "name": "Canottieri Baldesio",
     "lat": 45.1301505,
-    "lon": 10.001319
+    "lon": 10.001319,
+    "err": true
   },
   {
     "name": "Centro Sportivo Giovanni Arvedi - US Cremonese",
-    "lat": 45.13653886951461, 
-    "lon": 10.04770522517829
+    "lat": 45.13653886951461,
+    "lon": 10.04770522517829,
+    "err": true
   },
   {
     "name": "Palestra Spettacolo Accademia Boxe",
-    "lat": 45.135509144959116, 
-    "lon": 10.044436938682423
+    "lat": 45.135509144959116,
+    "lon": 10.044436938682423,
+    "err": true
   },
   {
     "name": "Palazzetto dello Sport",
     "lat": 45.1511325,
-    "lon": 10.0341088
+    "lon": 10.0341088,
+    "err": true
   },
   {
     "name": "Campo di Calcio Soldi",
     "lat": 45.1358383,
-    "lon": 10.0439762
+    "lon": 10.0439762,
+    "err": true
   },
   {
     "name": "USC Cremonese",
-    "lat": 45.13426343765827, 
-    "lon": 10.024799014043182
+    "lat": 45.13426343765827,
+    "lon": 10.024799014043182,
+    "err": true
   },
   {
     "name": "Crossodromo di Cremona - Moto Club",
     "lat": 45.1356682,
-    "lon": 9.9828312
+    "lon": 9.9828312,
+    "err": true
   },
   {
     "name": "Golf Il Torrazzo",
-    "lat": 45.1628520156972, 
-    "lon": 9.984887134245854
+    "lat": 45.1628520156972,
+    "lon": 9.984887134245854,
+    "err": true
   },
   {
     "name": "Palazzo Zaccaria Pallavicino",
     "lat": 45.1358673,
-    "lon": 10.028097
+    "lon": 10.028097,
+    "err": true
   },
   {
     "name": "Palazzo Cattaneo",
     "lat": 45.1352681,
-    "lon": 10.0176514
+    "lon": 10.0176514,
+    "err": true
   },
   {
     "name": "Casello autostrada",
-    "lat": 45.14247181212413, 
-    "lon": 10.068624330725438
+    "lat": 45.14247181212413,
+    "lon": 10.068624330725438,
+    "err": true
   },
   {
     "name": "Ponte sul Po",
-    "lat": 45.12854131000889, 
-    "lon": 9.994848737329376
+    "lat": 45.12854131000889,
+    "lon": 9.994848737329376,
+    "err": true
   },
   {
     "name": "ACI e PRA",
     "lat": 45.13357200206466,
-    "lon": 10.027156904740972
+    "lon": 10.027156904740972,
+    "err": true
   },
   {
     "name": "Ocrim",
     "lat": 45.139729853520485,
-    "lon": 9.971387439550206
+    "lon": 9.971387439550206,
+    "err": true
   },
   {
     "name": "Istituto d'Istruzione Einaudi",
     "lat": 45.13857451272351,
-    "lon": 10.010643411576284
+    "lon": 10.010643411576284,
+    "err": true
   },
   {
     "name": "Parcheggio Santa Tecla",
     "lat": 45.13729609352735,
-    "lon": 10.013132848976674
+    "lon": 10.013132848976674,
+    "err": true
   },
   {
     "name": "Cinema Arena Giardino",
     "lat": 45.13151134365798,
-    "lon": 10.01409756140184
+    "lon": 10.01409756140184,
+    "err": true
   },
   {
     "name": "Palazzo Vescovile",
     "lat": 45.13295515964099,
-    "lon": 10.025483135513115
+    "lon": 10.025483135513115,
+    "err": true
   },
   {
     "name": "Porto Canale o Porto Interno",
     "lat": 45.13755937850401,
-    "lon": 9.979907078937112
+    "lon": 9.979907078937112,
+    "err": true
   },
   {
     "name": "Piazza Antonio Stradivari",
     "lat": 45.133705589490376,
-    "lon": 10.023398347198423
+    "lon": 10.023398347198423,
+    "err": true
   },
   {
     "name": "Piazza Roma",
     "lat": 45.13491656994864,
-    "lon": 10.02351636438953
+    "lon": 10.02351636438953,
+    "err": true
   },
   {
     "name": "Piazza Guglielmo Marconi",
     "lat": 45.1322734424679,
-    "lon": 10.022601991312222
+    "lon": 10.022601991312222,
+    "err": true
   },
   {
     "name": "Piazza della Pace",
     "lat": 45.13296027608379,
-    "lon": 10.023494084222893
+    "lon": 10.023494084222893,
+    "err": true
   },
   {
     "name": "Piazza Lodi",
     "lat": 45.13625320453086,
-    "lon": 10.02660832018251
+    "lon": 10.02660832018251,
+    "err": true
   },
   {
     "name": "Piazza Sant'Agostino",
     "lat": 45.1349401242157,
-    "lon": 10.019330085633513
+    "lon": 10.019330085633513,
+    "err": true
   },
   {
     "name": "Piazza della Libertà",
     "lat": 45.13731423790983,
-    "lon": 10.031623451447816
+    "lon": 10.031623451447816,
+    "err": true
   },
   {
     "name": "Piazza San Paolo",
     "lat": 45.13588985530883,
-    "lon": 10.01631673553379
+    "lon": 10.01631673553379,
+    "err": true
   },
   {
     "name": "Piazza Giovanni XXIII",
     "lat": 45.13754699950237,
-    "lon": 10.025859620934051
+    "lon": 10.025859620934051,
+    "err": true
   },
   {
     "name": "Piazza IV Novembre",
     "lat": 45.13399751855687,
-    "lon": 10.033453792787283
+    "lon": 10.033453792787283,
+    "err": true
   },
   {
     "name": "Piazza Girolamo Vida",
     "lat": 45.13647687049298,
-    "lon": 10.019502517757326
+    "lon": 10.019502517757326,
+    "err": true
   },
   {
     "name": "Piazza Castello",
     "lat": 45.14045629956414,
-    "lon": 10.011250926437356
+    "lon": 10.011250926437356,
+    "err": true
   },
   {
     "name": "Codognese 234 (Pavia)",
-    "lat": 45.14451125449823, 
-    "lon": 9.989392412929861
+    "lat": 45.14451125449823,
+    "lon": 9.989392412929861,
+    "err": true
   },
   {
     "name": "Paullese 415 (Milano)",
-    "lat": 45.15325672645669, 
-    "lon": 9.995873921821197
+    "lat": 45.15325672645669,
+    "lon": 9.995873921821197,
+    "err": true
   },
   {
     "name": "Soncinese 498 (Bergamo)",
-    "lat": 45.156231789575145, 
-    "lon": 10.010750203949085
+    "lat": 45.156231789575145,
+    "lon": 10.010750203949085,
+    "err": true
   },
   {
     "name": "Padana Inf 10 (Piacenza - Mantova)",
-    "lat": 45.14227219256245, 
-    "lon": 10.059603593859638
+    "lat": 45.14227219256245,
+    "lon": 10.059603593859638,
+    "err": true
   }
 ]

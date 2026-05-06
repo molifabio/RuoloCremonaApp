@@ -27,9 +27,15 @@ def load_poi() -> list[dict]:
                     "name": str(item["name"]),
                     "lat": float(item["lat"]),
                     "lon": float(item["lon"]),
+                    "err": bool(item.get("err", True)),
                 }
             )
     return clean
+
+
+def save_poi(poi_list: list[dict]) -> None:
+    with DATA_FILE.open("w", encoding="utf-8") as f:
+        json.dump(poi_list, f, indent=2, ensure_ascii=False)
 
 
 def build_poi_batches(poi_list: list[dict]) -> dict[str, list[dict]]:
@@ -55,9 +61,13 @@ def build_poi_batches(poi_list: list[dict]) -> dict[str, list[dict]]:
         "nord ovest": [],
         "sud est": [],
         "sud ovest": [],
+        "errori": [],
     }
 
     for poi in poi_list:
+        if not poi.get("err", True):
+            batches["errori"].append(poi)
+
         lat = poi["lat"]
         lon = poi["lon"]
         if abs(lat - center_lat) <= lat_margin and abs(lon - center_lon) <= lon_margin:
@@ -304,7 +314,11 @@ def reset_mode1(
         for poi in batch_map.get(batch_name, [])
     ]
 
-    k = min(10, len(selected_names))
+    if pool_signature == ("errori",):
+        k = len(selected_names)
+    else:
+        k = min(10, len(selected_names))
+        
     st.session_state.m1_pool_signature = pool_signature
     st.session_state.m1_order = random.sample(selected_names, k=k) if k else []
     st.session_state.m1_index = 0
@@ -440,6 +454,13 @@ def run_mode1(
                 picked = st.session_state.m1_pending["name"]
                 dist = st.session_state.m1_pending["dist"]
                 ok = picked == target_name
+                
+                for p in poi_list:
+                    if p["name"] == target_name:
+                        p["err"] = ok
+                        break
+                save_poi(poi_list)
+
                 st.session_state.m1_results.append(
                     {
                         "target": target_name,
@@ -587,7 +608,7 @@ def main() -> None:
         st.stop()
 
     batch_map = build_poi_batches(poi_list)
-    batch_labels = ["Tutte le batch", "centro", "nord est", "nord ovest", "sud est", "sud ovest"]
+    batch_labels = ["Tutte le batch", "centro", "nord est", "nord ovest", "sud est", "sud ovest", "errori"]
 
     with st.sidebar:
         st.header("Impostazioni")

@@ -411,45 +411,39 @@ def run_mode1(
         if feedback["ok"]:
             st.success(f"Corretto: {feedback['target']}")
         else:
-            st.error(f"Sbagliato. Hai selezionato: {feedback["picked"]}")
+            st.error(f"Sbagliato. Hai selezionato: {feedback['picked']}")
 
-    col_map, col_info = st.columns([2, 1], vertical_alignment="top")
+    fmap = make_base_map(
+        poi_list,
+        show_labels=False,
+        tiles=map_tiles,
+        poi_highlights=highlight_colors,
+    )
+    out = st_folium(fmap, width=map_width, height=map_height)
+    clicked = out.get("last_clicked")
 
-    with col_map:
-        fmap = make_base_map(
-            poi_list,
-            show_labels=False,
-            tiles=map_tiles,
-            poi_highlights=highlight_colors,
-        )
-        out = st_folium(fmap, width=map_width, height=map_height)
-        clicked = out.get("last_clicked")
+    if clicked and not feedback:
+        signature = (round(clicked["lat"], 6), round(clicked["lng"], 6), idx)
+        if signature != st.session_state.m1_last_click:
+            nearest, dist_m = find_nearest_poi(clicked["lat"], clicked["lng"], poi_list)
+            st.session_state.m1_last_click = signature
 
-        if clicked and not feedback:
-            signature = (round(clicked["lat"], 6), round(clicked["lng"], 6), idx)
-            if signature != st.session_state.m1_last_click:
-                nearest, dist_m = find_nearest_poi(clicked["lat"], clicked["lng"], poi_list)
-                st.session_state.m1_last_click = signature
-
-                if dist_m <= snap_distance:
-                    st.session_state.m1_pending = {
-                        "name": nearest["name"],
-                        "dist": dist_m,
-                    }
-                else:
-                    st.session_state.m1_pending = None
-                    st.warning(
-                        f"Click troppo lontano da un punto predisposto ({dist_m:.1f} m). Riprova piu vicino."
-                    )
-
-    with col_info:
-        st.write("Controlli")
-        if not feedback:
-            if st.session_state.m1_pending:
-                st.write("Hai un punto selezionato sulla mappa.")
+            if dist_m <= snap_distance:
+                st.session_state.m1_pending = {
+                    "name": nearest["name"],
+                    "dist": dist_m,
+                }
             else:
-                st.write("Nessun punto selezionato")
+                st.session_state.m1_pending = None
+                st.warning(
+                    f"Click troppo lontano da un punto predisposto ({dist_m:.1f} m). Riprova piu vicino."
+                )
 
+    st.write("---")
+    col_btn1, col_btn2 = st.columns(2)
+
+    with col_btn1:
+        if not feedback:
             if st.button("Conferma risposta", disabled=st.session_state.m1_pending is None, use_container_width=True):
                 picked = st.session_state.m1_pending["name"]
                 dist = st.session_state.m1_pending["dist"]
@@ -486,6 +480,7 @@ def run_mode1(
                 st.session_state.m1_last_click = None
                 st.rerun()
 
+    with col_btn2:
         if st.button("Reset quiz 10 POI", use_container_width=True):
             reset_mode1(poi_list, batch_map, pool_signature)
             st.rerun()

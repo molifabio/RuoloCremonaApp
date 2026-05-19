@@ -39,28 +39,14 @@ def save_poi(poi_list: list[dict]) -> None:
 
 
 def build_poi_batches(poi_list: list[dict]) -> dict[str, list[dict]]:
-    if not poi_list:
-        return {
-            "centro": [],
-            "nord est": [],
-            "nord ovest": [],
-            "sud est": [],
-            "sud ovest": [],
-        }
-
-    center_lat = sum(p["lat"] for p in poi_list) / len(poi_list)
-    center_lon = sum(p["lon"] for p in poi_list) / len(poi_list)
-    lat_span = max(p["lat"] for p in poi_list) - min(p["lat"] for p in poi_list)
-    lon_span = max(p["lon"] for p in poi_list) - min(p["lon"] for p in poi_list)
-    lat_margin = max(lat_span * 0.18, 0.0018)
-    lon_margin = max(lon_span * 0.18, 0.0030)
-
     batches: dict[str, list[dict]] = {
-        "centro": [],
-        "nord est": [],
-        "nord ovest": [],
-        "sud est": [],
-        "sud ovest": [],
+        "Luoghi di culto": [],
+        "Hotel/Ristoranti": [],
+        "Zone industriali": [],
+        "Istituti scolastici": [],
+        "Luoghi turistici": [],
+        "Palazzi storici": [],
+        "Enti": [],
         "errori": [],
     }
 
@@ -68,18 +54,21 @@ def build_poi_batches(poi_list: list[dict]) -> dict[str, list[dict]]:
         if not poi.get("err", True):
             batches["errori"].append(poi)
 
-        lat = poi["lat"]
-        lon = poi["lon"]
-        if abs(lat - center_lat) <= lat_margin and abs(lon - center_lon) <= lon_margin:
-            batches["centro"].append(poi)
-        elif lat >= center_lat and lon >= center_lon:
-            batches["nord est"].append(poi)
-        elif lat >= center_lat and lon < center_lon:
-            batches["nord ovest"].append(poi)
-        elif lat < center_lat and lon >= center_lon:
-            batches["sud est"].append(poi)
+        name_lower = poi["name"].lower()
+        if any(k in name_lower for k in ["chiesa", "duomo", "battistero", "parrocchia", "santuario", "monastero", "convento"]):
+            batches["Luoghi di culto"].append(poi)
+        elif any(k in name_lower for k in ["hotel", "ristorante", "albergo", "pizzeria", "trattoria", "osteria", "b&b", "locanda", "ostello"]):
+            batches["Hotel/Ristoranti"].append(poi)
+        elif any(k in name_lower for k in ["azienda", "s.p.a", "spa", "srl", "acciaieri", "wamar", "arvedi", "ceramica", "consorzio", "fabbrica", "stazione", "parcheggio", "autosilos", "fermata"]):
+            batches["Zone industriali"].append(poi)
+        elif any(k in name_lower for k in ["liceo", "istituto", "scuola", "itis", "itc", "università", "politecnico", "campus", "cfp", "conservatorio"]):
+            batches["Istituti scolastici"].append(poi)
+        elif any(k in name_lower for k in ["museo", "biblioteca", "pinacoteca","cinema", "teatro", "politeama", "arena", "multisala"]):
+            batches["Luoghi turistici"].append(poi)
+        elif any(k in name_lower for k in ["palazzo", "villa", "castello", "torrazzo", "rocca", "ponte loggiato"]):
+            batches["Palazzi storici"].append(poi)
         else:
-            batches["sud ovest"].append(poi)
+            batches["Enti"].append(poi)
 
     return batches
 
@@ -603,7 +592,17 @@ def main() -> None:
         st.stop()
 
     batch_map = build_poi_batches(poi_list)
-    batch_labels = ["Tutte le batch", "centro", "nord est", "nord ovest", "sud est", "sud ovest", "errori"]
+    batch_labels = [
+        "Tutte le batch",
+        "Luoghi di culto",
+        "Hotel/Ristoranti",
+        "Zone industriali",
+        "Istituti scolastici",
+        "Luoghi turistici",
+        "Palazzi storici",
+        "Enti",
+        "errori",
+    ]
 
     with st.sidebar:
         st.header("Impostazioni")
@@ -630,7 +629,10 @@ def main() -> None:
     map_width = 1180
     map_height = 720
 
-    selected_batches = [batch_choice] if batch_choice != "Tutte le batch" else ["centro", "nord est", "nord ovest", "sud est", "sud ovest"]
+    selected_batches = [batch_choice] if batch_choice != "Tutte le batch" else [
+        "Luoghi di culto", "Hotel/Ristoranti", "Zone industriali", "Istituti scolastici",
+        "Luoghi turistici", "Palazzi storici", "Enti"
+    ]
     selected_poi_names = [
         poi["name"]
         for batch_name in selected_batches
